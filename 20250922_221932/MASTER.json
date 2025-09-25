@@ -1,0 +1,101 @@
+{
+  "train_csv": "../data/merged/2501-04.csv.gz",
+  "eval_csv": "../data/monthly/2505.csv.gz",
+  "created_at": "20250922_221932",
+  "devices": [
+    "cuda:0",
+    "cuda:1",
+    "cuda:2",
+    "cuda:3"
+  ],
+  "jobs": [
+    {
+      "n_layers": 2,
+      "d_model": 1024,
+      "n_heads": 4,
+      "seq_len": 100,
+      "horizon_steps": 10,
+      "smooth_len": 5,
+      "epsilon_mode": "avg_spread",
+      "epsilon_scale": 10.0,
+      "seed": 42
+    },
+    {
+      "n_layers": 2,
+      "d_model": 1024,
+      "n_heads": 4,
+      "seq_len": 100,
+      "horizon_steps": 10,
+      "smooth_len": 5,
+      "epsilon_mode": "avg_spread",
+      "epsilon_scale": 50.0,
+      "seed": 42
+    },
+    {
+      "n_layers": 2,
+      "d_model": 1024,
+      "n_heads": 4,
+      "seq_len": 100,
+      "horizon_steps": 10,
+      "smooth_len": 5,
+      "epsilon_mode": "avg_spread",
+      "epsilon_scale": 100.0,
+      "seed": 42
+    },
+    {
+      "n_layers": 2,
+      "d_model": 1024,
+      "n_heads": 4,
+      "seq_len": 100,
+      "horizon_steps": 10,
+      "smooth_len": 5,
+      "epsilon_mode": "zero",
+      "epsilon_scale": 0.0,
+      "seed": 42
+    },
+    {
+      "n_layers": 10,
+      "d_model": 1024,
+      "n_heads": 4,
+      "seq_len": 100,
+      "horizon_steps": 10,
+      "smooth_len": 5,
+      "epsilon_mode": "avg_spread",
+      "epsilon_scale": 10.0,
+      "seed": 42
+    },
+    {
+      "n_layers": 10,
+      "d_model": 1024,
+      "n_heads": 4,
+      "seq_len": 100,
+      "horizon_steps": 10,
+      "smooth_len": 5,
+      "epsilon_mode": "avg_spread",
+      "epsilon_scale": 50.0,
+      "seed": 42
+    },
+    {
+      "n_layers": 10,
+      "d_model": 1024,
+      "n_heads": 4,
+      "seq_len": 100,
+      "horizon_steps": 10,
+      "smooth_len": 5,
+      "epsilon_mode": "avg_spread",
+      "epsilon_scale": 100.0,
+      "seed": 42
+    },
+    {
+      "n_layers": 10,
+      "d_model": 1024,
+      "n_heads": 4,
+      "seq_len": 100,
+      "horizon_steps": 10,
+      "smooth_len": 5,
+      "epsilon_mode": "zero",
+      "epsilon_scale": 0.0,
+      "seed": 42
+    }
+  ]
+}

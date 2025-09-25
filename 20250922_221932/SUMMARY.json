@@ -1,0 +1,238 @@
+[
+  {
+    "name": "L2-H1024-K4-S100-hor10-W5-epsavg_spread-10.0-seed42",
+    "device": "cuda:0",
+    "best_epoch": 3,
+    "best_macro_f1": 0.3865781762501211,
+    "final_val": {
+      "acc": 0.5778854857076119,
+      "macro_f1": 0.3865781762501211
+    },
+    "extra_eval": {
+      "acc": 0.5776624893320756,
+      "macro_f1": 0.38623327627964565
+    },
+    "job_cfg": {
+      "train_csv": "../data/merged/2501-04.csv.gz",
+      "eval_csv": "../data/monthly/2505.csv.gz",
+      "seq_len": 100,
+      "horizon_steps": 10,
+      "smooth_len": 5,
+      "epsilon_mode": "avg_spread",
+      "epsilon_scale": 10.0,
+      "d_model": 1024,
+      "n_layers": 2,
+      "n_heads": 4,
+      "epochs": 20,
+      "batch_size": 128,
+      "lr": 0.0001,
+      "val_ratio": 0.2,
+      "seed": 42,
+      "device": "cuda:0",
+      "out_dir": "logs/sweep/20250922_221932/L2-H1024-K4-S100-hor10-W5-epsavg_spread-10.0-seed42"
+    }
+  },
+  {
+    "name": "L2-H1024-K4-S100-hor10-W5-epsavg_spread-50.0-seed42",
+    "device": "cuda:1",
+    "best_epoch": 1,
+    "best_macro_f1": 0.3793114087622625,
+    "final_val": {
+      "acc": 0.5648048118193232,
+      "macro_f1": 0.3793114087622625
+    },
+    "extra_eval": {
+      "acc": 0.5638054170596954,
+      "macro_f1": 0.37869766827937906
+    },
+    "job_cfg": {
+      "train_csv": "../data/merged/2501-04.csv.gz",
+      "eval_csv": "../data/monthly/2505.csv.gz",
+      "seq_len": 100,
+      "horizon_steps": 10,
+      "smooth_len": 5,
+      "epsilon_mode": "avg_spread",
+      "epsilon_scale": 50.0,
+      "d_model": 1024,
+      "n_layers": 2,
+      "n_heads": 4,
+      "epochs": 20,
+      "batch_size": 128,
+      "lr": 0.0001,
+      "val_ratio": 0.2,
+      "seed": 42,
+      "device": "cuda:1",
+      "out_dir": "logs/sweep/20250922_221932/L2-H1024-K4-S100-hor10-W5-epsavg_spread-50.0-seed42"
+    }
+  },
+  {
+    "name": "L2-H1024-K4-S100-hor10-W5-epsavg_spread-100.0-seed42",
+    "device": "cuda:2",
+    "best_epoch": 2,
+    "best_macro_f1": 0.37674233787656225,
+    "final_val": {
+      "acc": 0.5499138660982802,
+      "macro_f1": 0.37674233787656225
+    },
+    "extra_eval": {
+      "acc": 0.5509365314647622,
+      "macro_f1": 0.37706973991616016
+    },
+    "job_cfg": {
+      "train_csv": "../data/merged/2501-04.csv.gz",
+      "eval_csv": "../data/monthly/2505.csv.gz",
+      "seq_len": 100,
+      "horizon_steps": 10,
+      "smooth_len": 5,
+      "epsilon_mode": "avg_spread",
+      "epsilon_scale": 100.0,
+      "d_model": 1024,
+      "n_layers": 2,
+      "n_heads": 4,
+      "epochs": 20,
+      "batch_size": 128,
+      "lr": 0.0001,
+      "val_ratio": 0.2,
+      "seed": 42,
+      "device": "cuda:2",
+      "out_dir": "logs/sweep/20250922_221932/L2-H1024-K4-S100-hor10-W5-epsavg_spread-100.0-seed42"
+    }
+  },
+  {
+    "name": "L2-H1024-K4-S100-hor10-W5-epszero-seed42",
+    "device": "cuda:3",
+    "best_epoch": 3,
+    "best_macro_f1": 0.38671200661479194,
+    "final_val": {
+      "acc": 0.5800753306665888,
+      "macro_f1": 0.38671200661479194
+    },
+    "extra_eval": {
+      "acc": 0.5809190136100256,
+      "macro_f1": 0.38727820093241067
+    },
+    "job_cfg": {
+      "train_csv": "../data/merged/2501-04.csv.gz",
+      "eval_csv": "../data/monthly/2505.csv.gz",
+      "seq_len": 100,
+      "horizon_steps": 10,
+      "smooth_len": 5,
+      "epsilon_mode": "zero",
+      "epsilon_scale": 0.0,
+      "d_model": 1024,
+      "n_layers": 2,
+      "n_heads": 4,
+      "epochs": 20,
+      "batch_size": 128,
+      "lr": 0.0001,
+      "val_ratio": 0.2,
+      "seed": 42,
+      "device": "cuda:3",
+      "out_dir": "logs/sweep/20250922_221932/L2-H1024-K4-S100-hor10-W5-epszero-seed42"
+    }
+  },
+  {
+    "name": "L10-H1024-K4-S100-hor10-W5-epsavg_spread-10.0-seed42",
+    "device": "cuda:0",
+    "best_epoch": 3,
+    "best_macro_f1": 0.3878011838669213,
+    "final_val": {
+      "acc": 0.5796373616747934,
+      "macro_f1": 0.3878011838669213
+    },
+    "extra_eval": {
+      "acc": 0.5805821317881688,
+      "macro_f1": 0.38821694654320305
+    },
+    "job_cfg": {
+      "train_csv": "../data/merged/2501-04.csv.gz",
+      "eval_csv": "../data/monthly/2505.csv.gz",
+      "seq_len": 100,
+      "horizon_steps": 10,
+      "smooth_len": 5,
+      "epsilon_mode": "avg_spread",
+      "epsilon_scale": 10.0,
+      "d_model": 1024,
+      "n_layers": 10,
+      "n_heads": 4,
+      "epochs": 20,
+      "batch_size": 128,
+      "lr": 0.0001,
+      "val_ratio": 0.2,
+      "seed": 42,
+      "device": "cuda:0",
+      "out_dir": "logs/sweep/20250922_221932/L10-H1024-K4-S100-hor10-W5-epsavg_spread-10.0-seed42"
+    }
+  },
+  {
+    "name": "L10-H1024-K4-S100-hor10-W5-epsavg_spread-50.0-seed42",
+    "device": "cuda:1",
+    "best_epoch": 3,
+    "best_macro_f1": 0.3799554250618158,
+    "final_val": {
+      "acc": 0.5624397792636281,
+      "macro_f1": 0.3799554250618158
+    },
+    "extra_eval": {
+      "acc": 0.5563940169788438,
+      "macro_f1": 0.37564260810583816
+    },
+    "job_cfg": {
+      "train_csv": "../data/merged/2501-04.csv.gz",
+      "eval_csv": "../data/monthly/2505.csv.gz",
+      "seq_len": 100,
+      "horizon_steps": 10,
+      "smooth_len": 5,
+      "epsilon_mode": "avg_spread",
+      "epsilon_scale": 50.0,
+      "d_model": 1024,
+      "n_layers": 10,
+      "n_heads": 4,
+      "epochs": 20,
+      "batch_size": 128,
+      "lr": 0.0001,
+      "val_ratio": 0.2,
+      "seed": 42,
+      "device": "cuda:1",
+      "out_dir": "logs/sweep/20250922_221932/L10-H1024-K4-S100-hor10-W5-epsavg_spread-50.0-seed42"
+    }
+  },
+  {
+    "name": "L10-H1024-K4-S100-hor10-W5-epsavg_spread-100.0-seed42",
+    "device": "cuda:2",
+    "error": "CUDA out of memory. Tried to allocate 2.00 GiB. GPU 2 has a total capacity of 93.00 GiB of which 1.56 GiB is free. Process 2862240 has 37.12 GiB memory in use. Process 3249736 has 12.94 GiB memory in use. Process 3249737 has 41.35 GiB memory in use. Of the allocated memory 38.47 GiB is allocated by PyTorch, and 2.16 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)"
+  },
+  {
+    "name": "L10-H1024-K4-S100-hor10-W5-epszero-seed42",
+    "device": "cuda:3",
+    "best_epoch": 3,
+    "best_macro_f1": 0.38870200019939277,
+    "final_val": {
+      "acc": 0.5857981254927151,
+      "macro_f1": 0.38870200019939277
+    },
+    "extra_eval": {
+      "acc": 0.5800206620850739,
+      "macro_f1": 0.3849476861767161
+    },
+    "job_cfg": {
+      "train_csv": "../data/merged/2501-04.csv.gz",
+      "eval_csv": "../data/monthly/2505.csv.gz",
+      "seq_len": 100,
+      "horizon_steps": 10,
+      "smooth_len": 5,
+      "epsilon_mode": "zero",
+      "epsilon_scale": 0.0,
+      "d_model": 1024,
+      "n_layers": 10,
+      "n_heads": 4,
+      "epochs": 20,
+      "batch_size": 128,
+      "lr": 0.0001,
+      "val_ratio": 0.2,
+      "seed": 42,
+      "device": "cuda:3",
+      "out_dir": "logs/sweep/20250922_221932/L10-H1024-K4-S100-hor10-W5-epszero-seed42"
+    }
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "best_epoch": 3,
+  "best_macro_f1": 0.3799554250618158,
+  "final_val": {
+    "acc": 0.5624397792636281,
+    "macro_f1": 0.3799554250618158
+  },
+  "extra_eval": {
+    "acc": 0.5563940169788438,
+    "macro_f1": 0.37564260810583816
+  },
+  "job_cfg": {
+    "train_csv": "../data/merged/2501-04.csv.gz",
+    "eval_csv": "../data/monthly/2505.csv.gz",
+    "seq_len": 100,
+    "horizon_steps": 10,
+    "smooth_len": 5,
+    "epsilon_mode": "avg_spread",
+    "epsilon_scale": 50.0,
+    "d_model": 1024,
+    "n_layers": 10,
+    "n_heads": 4,
+    "epochs": 20,
+    "batch_size": 128,
+    "lr": 0.0001,
+    "val_ratio": 0.2,
+    "seed": 42,
+    "device": "cuda:1",
+    "out_dir": "logs/sweep/20250922_221932/L10-H1024-K4-S100-hor10-W5-epsavg_spread-50.0-seed42"
+  }
+}
