@@ -1,0 +1,101 @@
+{
+  "train_csv": "../data/merged/BTCUSDT_book_2501-04_1min.csv.gz",
+  "eval_csv": "../data/monthly/BTCUSDT_book_2505_1min.csv.gz",
+  "created_at": "20250922_221306",
+  "devices": [
+    "cuda:0",
+    "cuda:1",
+    "cuda:2",
+    "cuda:3"
+  ],
+  "jobs": [
+    {
+      "n_layers": 2,
+      "d_model": 1024,
+      "n_heads": 4,
+      "seq_len": 100,
+      "horizon_steps": 10,
+      "smooth_len": 5,
+      "epsilon_mode": "avg_spread",
+      "epsilon_scale": 10.0,
+      "seed": 42
+    },
+    {
+      "n_layers": 2,
+      "d_model": 1024,
+      "n_heads": 4,
+      "seq_len": 100,
+      "horizon_steps": 10,
+      "smooth_len": 5,
+      "epsilon_mode": "avg_spread",
+      "epsilon_scale": 50.0,
+      "seed": 42
+    },
+    {
+      "n_layers": 2,
+      "d_model": 1024,
+      "n_heads": 4,
+      "seq_len": 100,
+      "horizon_steps": 10,
+      "smooth_len": 5,
+      "epsilon_mode": "avg_spread",
+      "epsilon_scale": 100.0,
+      "seed": 42
+    },
+    {
+      "n_layers": 2,
+      "d_model": 1024,
+      "n_heads": 4,
+      "seq_len": 100,
+      "horizon_steps": 10,
+      "smooth_len": 5,
+      "epsilon_mode": "zero",
+      "epsilon_scale": 0.0,
+      "seed": 42
+    },
+    {
+      "n_layers": 10,
+      "d_model": 1024,
+      "n_heads": 4,
+      "seq_len": 100,
+      "horizon_steps": 10,
+      "smooth_len": 5,
+      "epsilon_mode": "avg_spread",
+      "epsilon_scale": 10.0,
+      "seed": 42
+    },
+    {
+      "n_layers": 10,
+      "d_model": 1024,
+      "n_heads": 4,
+      "seq_len": 100,
+      "horizon_steps": 10,
+      "smooth_len": 5,
+      "epsilon_mode": "avg_spread",
+      "epsilon_scale": 50.0,
+      "seed": 42
+    },
+    {
+      "n_layers": 10,
+      "d_model": 1024,
+      "n_heads": 4,
+      "seq_len": 100,
+      "horizon_steps": 10,
+      "smooth_len": 5,
+      "epsilon_mode": "avg_spread",
+      "epsilon_scale": 100.0,
+      "seed": 42
+    },
+    {
+      "n_layers": 10,
+      "d_model": 1024,
+      "n_heads": 4,
+      "seq_len": 100,
+      "horizon_steps": 10,
+      "smooth_len": 5,
+      "epsilon_mode": "zero",
+      "epsilon_scale": 0.0,
+      "seed": 42
+    }
+  ]
+}
