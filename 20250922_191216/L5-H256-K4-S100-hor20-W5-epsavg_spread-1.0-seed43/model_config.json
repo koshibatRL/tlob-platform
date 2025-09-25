@@ -1,0 +1,9 @@
+{
+  "hidden_dim": 256,
+  "num_layers": 5,
+  "seq_len": 100,
+  "num_features": 40,
+  "num_heads": 4,
+  "reduce_factor": 4,
+  "use_sinusoidal_pos_emb": true
+}

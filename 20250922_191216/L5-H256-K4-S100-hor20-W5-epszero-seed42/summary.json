@@ -1,0 +1,31 @@
+{
+  "best_epoch": 8,
+  "best_macro_f1": 0.3436971816570297,
+  "final_val": {
+    "acc": 0.5155565539705718,
+    "macro_f1": 0.3436971816570297
+  },
+  "extra_eval": {
+    "acc": 0.5168490040251832,
+    "macro_f1": 0.34454445198717654
+  },
+  "job_cfg": {
+    "train_csv": "../data/monthly/BTCUSDT_book_2501_1min.csv.gz",
+    "eval_csv": "../data/monthly/BTCUSDT_book_2502_1min.csv.gz",
+    "seq_len": 100,
+    "horizon_steps": 20,
+    "smooth_len": 5,
+    "epsilon_mode": "zero",
+    "epsilon_scale": 0.0,
+    "d_model": 256,
+    "n_layers": 5,
+    "n_heads": 4,
+    "epochs": 20,
+    "batch_size": 128,
+    "lr": 0.0001,
+    "val_ratio": 0.2,
+    "seed": 42,
+    "device": "cuda:2",
+    "out_dir": "logs/sweep/20250922_191216/L5-H256-K4-S100-hor20-W5-epszero-seed42"
+  }
+}
