@@ -1,0 +1,1218 @@
+[
+  {
+    "name": "L5-H256-K4-S100-hor10-W5-epsavg_spread-1.0-seed42",
+    "device": "cuda:0",
+    "best_epoch": 2,
+    "best_macro_f1": 0.3700035418846424,
+    "final_val": {
+      "acc": 0.5550814149354295,
+      "macro_f1": 0.3700035418846424
+    },
+    "extra_eval": {
+      "acc": 0.5632513026879225,
+      "macro_f1": 0.37522451954725816
+    },
+    "job_cfg": {
+      "train_csv": "../data/monthly/BTCUSDT_book_2501_1min.csv.gz",
+      "eval_csv": "../data/monthly/BTCUSDT_book_2502_1min.csv.gz",
+      "seq_len": 100,
+      "horizon_steps": 10,
+      "smooth_len": 5,
+      "epsilon_mode": "avg_spread",
+      "epsilon_scale": 1.0,
+      "d_model": 256,
+      "n_layers": 5,
+      "n_heads": 4,
+      "epochs": 20,
+      "batch_size": 128,
+      "lr": 0.0001,
+      "val_ratio": 0.2,
+      "seed": 42,
+      "device": "cuda:0",
+      "out_dir": "logs/sweep/20250922_191216/L5-H256-K4-S100-hor10-W5-epsavg_spread-1.0-seed42"
+    }
+  },
+  {
+    "name": "L5-H256-K4-S100-hor10-W5-epsavg_spread-1.0-seed43",
+    "device": "cuda:1",
+    "best_epoch": 6,
+    "best_macro_f1": 0.3578266993399679,
+    "final_val": {
+      "acc": 0.5555306007860752,
+      "macro_f1": 0.3578266993399679
+    },
+    "extra_eval": {
+      "acc": 0.5535520817210958,
+      "macro_f1": 0.35798304436266
+    },
+    "job_cfg": {
+      "train_csv": "../data/monthly/BTCUSDT_book_2501_1min.csv.gz",
+      "eval_csv": "../data/monthly/BTCUSDT_book_2502_1min.csv.gz",
+      "seq_len": 100,
+      "horizon_steps": 10,
+      "smooth_len": 5,
+      "epsilon_mode": "avg_spread",
+      "epsilon_scale": 1.0,
+      "d_model": 256,
+      "n_layers": 5,
+      "n_heads": 4,
+      "epochs": 20,
+      "batch_size": 128,
+      "lr": 0.0001,
+      "val_ratio": 0.2,
+      "seed": 43,
+      "device": "cuda:1",
+      "out_dir": "logs/sweep/20250922_191216/L5-H256-K4-S100-hor10-W5-epsavg_spread-1.0-seed43"
+    }
+  },
+  {
+    "name": "L5-H256-K4-S100-hor10-W5-epsavg_spread-2.0-seed42",
+    "device": "cuda:2",
+    "best_epoch": 2,
+    "best_macro_f1": 0.3629975537376644,
+    "final_val": {
+      "acc": 0.5514879281302639,
+      "macro_f1": 0.3629975537376644
+    },
+    "extra_eval": {
+      "acc": 0.5547386885415054,
+      "macro_f1": 0.3636597496903707
+    },
+    "job_cfg": {
+      "train_csv": "../data/monthly/BTCUSDT_book_2501_1min.csv.gz",
+      "eval_csv": "../data/monthly/BTCUSDT_book_2502_1min.csv.gz",
+      "seq_len": 100,
+      "horizon_steps": 10,
+      "smooth_len": 5,
+      "epsilon_mode": "avg_spread",
+      "epsilon_scale": 2.0,
+      "d_model": 256,
+      "n_layers": 5,
+      "n_heads": 4,
+      "epochs": 20,
+      "batch_size": 128,
+      "lr": 0.0001,
+      "val_ratio": 0.2,
+      "seed": 42,
+      "device": "cuda:2",
+      "out_dir": "logs/sweep/20250922_191216/L5-H256-K4-S100-hor10-W5-epsavg_spread-2.0-seed42"
+    }
+  },
+  {
+    "name": "L5-H256-K4-S100-hor10-W5-epsavg_spread-2.0-seed43",
+    "device": "cuda:3",
+    "best_epoch": 4,
+    "best_macro_f1": 0.3699602974035832,
+    "final_val": {
+      "acc": 0.5594609769792251,
+      "macro_f1": 0.3699602974035832
+    },
+    "extra_eval": {
+      "acc": 0.5669401021513698,
+      "macro_f1": 0.37555005909742717
+    },
+    "job_cfg": {
+      "train_csv": "../data/monthly/BTCUSDT_book_2501_1min.csv.gz",
+      "eval_csv": "../data/monthly/BTCUSDT_book_2502_1min.csv.gz",
+      "seq_len": 100,
+      "horizon_steps": 10,
+      "smooth_len": 5,
+      "epsilon_mode": "avg_spread",
+      "epsilon_scale": 2.0,
+      "d_model": 256,
+      "n_layers": 5,
+      "n_heads": 4,
+      "epochs": 20,
+      "batch_size": 128,
+      "lr": 0.0001,
+      "val_ratio": 0.2,
+      "seed": 43,
+      "device": "cuda:3",
+      "out_dir": "logs/sweep/20250922_191216/L5-H256-K4-S100-hor10-W5-epsavg_spread-2.0-seed43"
+    }
+  },
+  {
+    "name": "L5-H256-K4-S100-hor10-W5-epsavg_spread-5.0-seed42",
+    "device": "cuda:0",
+    "best_epoch": 2,
+    "best_macro_f1": 0.37469181541779745,
+    "final_val": {
+      "acc": 0.5633913531723751,
+      "macro_f1": 0.37469181541779745
+    },
+    "extra_eval": {
+      "acc": 0.5619357168652943,
+      "macro_f1": 0.3745373755929268
+    },
+    "job_cfg": {
+      "train_csv": "../data/monthly/BTCUSDT_book_2501_1min.csv.gz",
+      "eval_csv": "../data/monthly/BTCUSDT_book_2502_1min.csv.gz",
+      "seq_len": 100,
+      "horizon_steps": 10,
+      "smooth_len": 5,
+      "epsilon_mode": "avg_spread",
+      "epsilon_scale": 5.0,
+      "d_model": 256,
+      "n_layers": 5,
+      "n_heads": 4,
+      "epochs": 20,
+      "batch_size": 128,
+      "lr": 0.0001,
+      "val_ratio": 0.2,
+      "seed": 42,
+      "device": "cuda:0",
+      "out_dir": "logs/sweep/20250922_191216/L5-H256-K4-S100-hor10-W5-epsavg_spread-5.0-seed42"
+    }
+  },
+  {
+    "name": "L5-H256-K4-S100-hor10-W5-epsavg_spread-5.0-seed43",
+    "device": "cuda:1",
+    "best_epoch": 6,
+    "best_macro_f1": 0.36587151404342405,
+    "final_val": {
+      "acc": 0.5587871982032566,
+      "macro_f1": 0.36587151404342405
+    },
+    "extra_eval": {
+      "acc": 0.5495795284527679,
+      "macro_f1": 0.3607584226759006
+    },
+    "job_cfg": {
+      "train_csv": "../data/monthly/BTCUSDT_book_2501_1min.csv.gz",
+      "eval_csv": "../data/monthly/BTCUSDT_book_2502_1min.csv.gz",
+      "seq_len": 100,
+      "horizon_steps": 10,
+      "smooth_len": 5,
+      "epsilon_mode": "avg_spread",
+      "epsilon_scale": 5.0,
+      "d_model": 256,
+      "n_layers": 5,
+      "n_heads": 4,
+      "epochs": 20,
+      "batch_size": 128,
+      "lr": 0.0001,
+      "val_ratio": 0.2,
+      "seed": 43,
+      "device": "cuda:1",
+      "out_dir": "logs/sweep/20250922_191216/L5-H256-K4-S100-hor10-W5-epsavg_spread-5.0-seed43"
+    }
+  },
+  {
+    "name": "L5-H256-K4-S100-hor10-W5-epszero-seed42",
+    "device": "cuda:2",
+    "best_epoch": 7,
+    "best_macro_f1": 0.3694304164427704,
+    "final_val": {
+      "acc": 0.5584503088152724,
+      "macro_f1": 0.3694304164427704
+    },
+    "extra_eval": {
+      "acc": 0.5585306712067275,
+      "macro_f1": 0.3708499575513411
+    },
+    "job_cfg": {
+      "train_csv": "../data/monthly/BTCUSDT_book_2501_1min.csv.gz",
+      "eval_csv": "../data/monthly/BTCUSDT_book_2502_1min.csv.gz",
+      "seq_len": 100,
+      "horizon_steps": 10,
+      "smooth_len": 5,
+      "epsilon_mode": "zero",
+      "epsilon_scale": 0.0,
+      "d_model": 256,
+      "n_layers": 5,
+      "n_heads": 4,
+      "epochs": 20,
+      "batch_size": 128,
+      "lr": 0.0001,
+      "val_ratio": 0.2,
+      "seed": 42,
+      "device": "cuda:2",
+      "out_dir": "logs/sweep/20250922_191216/L5-H256-K4-S100-hor10-W5-epszero-seed42"
+    }
+  },
+  {
+    "name": "L5-H256-K4-S100-hor10-W5-epszero-seed43",
+    "device": "cuda:3",
+    "best_epoch": 7,
+    "best_macro_f1": 0.3496645666175166,
+    "final_val": {
+      "acc": 0.5440763615946098,
+      "macro_f1": 0.3496645666175166
+    },
+    "extra_eval": {
+      "acc": 0.5431563741422897,
+      "macro_f1": 0.3494863235330951
+    },
+    "job_cfg": {
+      "train_csv": "../data/monthly/BTCUSDT_book_2501_1min.csv.gz",
+      "eval_csv": "../data/monthly/BTCUSDT_book_2502_1min.csv.gz",
+      "seq_len": 100,
+      "horizon_steps": 10,
+      "smooth_len": 5,
+      "epsilon_mode": "zero",
+      "epsilon_scale": 0.0,
+      "d_model": 256,
+      "n_layers": 5,
+      "n_heads": 4,
+      "epochs": 20,
+      "batch_size": 128,
+      "lr": 0.0001,
+      "val_ratio": 0.2,
+      "seed": 43,
+      "device": "cuda:3",
+      "out_dir": "logs/sweep/20250922_191216/L5-H256-K4-S100-hor10-W5-epszero-seed43"
+    }
+  },
+  {
+    "name": "L5-H256-K4-S100-hor20-W5-epsavg_spread-1.0-seed42",
+    "device": "cuda:0",
+    "best_epoch": 6,
+    "best_macro_f1": 0.3465183764605931,
+    "final_val": {
+      "acc": 0.5329664158148939,
+      "macro_f1": 0.3465183764605931
+    },
+    "extra_eval": {
+      "acc": 0.5278666529053566,
+      "macro_f1": 0.34409220102558913
+    },
+    "job_cfg": {
+      "train_csv": "../data/monthly/BTCUSDT_book_2501_1min.csv.gz",
+      "eval_csv": "../data/monthly/BTCUSDT_book_2502_1min.csv.gz",
+      "seq_len": 100,
+      "horizon_steps": 20,
+      "smooth_len": 5,
+      "epsilon_mode": "avg_spread",
+      "epsilon_scale": 1.0,
+      "d_model": 256,
+      "n_layers": 5,
+      "n_heads": 4,
+      "epochs": 20,
+      "batch_size": 128,
+      "lr": 0.0001,
+      "val_ratio": 0.2,
+      "seed": 42,
+      "device": "cuda:0",
+      "out_dir": "logs/sweep/20250922_191216/L5-H256-K4-S100-hor20-W5-epsavg_spread-1.0-seed42"
+    }
+  },
+  {
+    "name": "L5-H256-K4-S100-hor20-W5-epsavg_spread-1.0-seed43",
+    "device": "cuda:1",
+    "best_epoch": 3,
+    "best_macro_f1": 0.3536332112318797,
+    "final_val": {
+      "acc": 0.5306076603392115,
+      "macro_f1": 0.3536332112318797
+    },
+    "extra_eval": {
+      "acc": 0.5356847971926928,
+      "macro_f1": 0.3566895457317824
+    },
+    "job_cfg": {
+      "train_csv": "../data/monthly/BTCUSDT_book_2501_1min.csv.gz",
+      "eval_csv": "../data/monthly/BTCUSDT_book_2502_1min.csv.gz",
+      "seq_len": 100,
+      "horizon_steps": 20,
+      "smooth_len": 5,
+      "epsilon_mode": "avg_spread",
+      "epsilon_scale": 1.0,
+      "d_model": 256,
+      "n_layers": 5,
+      "n_heads": 4,
+      "epochs": 20,
+      "batch_size": 128,
+      "lr": 0.0001,
+      "val_ratio": 0.2,
+      "seed": 43,
+      "device": "cuda:1",
+      "out_dir": "logs/sweep/20250922_191216/L5-H256-K4-S100-hor20-W5-epsavg_spread-1.0-seed43"
+    }
+  },
+  {
+    "name": "L5-H256-K4-S100-hor20-W5-epsavg_spread-2.0-seed42",
+    "device": "cuda:2",
+    "best_epoch": 5,
+    "best_macro_f1": 0.36357226270083115,
+    "final_val": {
+      "acc": 0.5507132427271706,
+      "macro_f1": 0.36357226270083115
+    },
+    "extra_eval": {
+      "acc": 0.5368975126432036,
+      "macro_f1": 0.35414196960691763
+    },
+    "job_cfg": {
+      "train_csv": "../data/monthly/BTCUSDT_book_2501_1min.csv.gz",
+      "eval_csv": "../data/monthly/BTCUSDT_book_2502_1min.csv.gz",
+      "seq_len": 100,
+      "horizon_steps": 20,
+      "smooth_len": 5,
+      "epsilon_mode": "avg_spread",
+      "epsilon_scale": 2.0,
+      "d_model": 256,
+      "n_layers": 5,
+      "n_heads": 4,
+      "epochs": 20,
+      "batch_size": 128,
+      "lr": 0.0001,
+      "val_ratio": 0.2,
+      "seed": 42,
+      "device": "cuda:2",
+      "out_dir": "logs/sweep/20250922_191216/L5-H256-K4-S100-hor20-W5-epsavg_spread-2.0-seed42"
+    }
+  },
+  {
+    "name": "L5-H256-K4-S100-hor20-W5-epsavg_spread-2.0-seed43",
+    "device": "cuda:3",
+    "best_epoch": 7,
+    "best_macro_f1": 0.3532920806384497,
+    "final_val": {
+      "acc": 0.5347635628439852,
+      "macro_f1": 0.3532920806384497
+    },
+    "extra_eval": {
+      "acc": 0.5243317163793993,
+      "macro_f1": 0.3467115152992324
+    },
+    "job_cfg": {
+      "train_csv": "../data/monthly/BTCUSDT_book_2501_1min.csv.gz",
+      "eval_csv": "../data/monthly/BTCUSDT_book_2502_1min.csv.gz",
+      "seq_len": 100,
+      "horizon_steps": 20,
+      "smooth_len": 5,
+      "epsilon_mode": "avg_spread",
+      "epsilon_scale": 2.0,
+      "d_model": 256,
+      "n_layers": 5,
+      "n_heads": 4,
+      "epochs": 20,
+      "batch_size": 128,
+      "lr": 0.0001,
+      "val_ratio": 0.2,
+      "seed": 43,
+      "device": "cuda:3",
+      "out_dir": "logs/sweep/20250922_191216/L5-H256-K4-S100-hor20-W5-epsavg_spread-2.0-seed43"
+    }
+  },
+  {
+    "name": "L5-H256-K4-S100-hor20-W5-epsavg_spread-5.0-seed42",
+    "device": "cuda:0",
+    "best_epoch": 6,
+    "best_macro_f1": 0.35309933039628233,
+    "final_val": {
+      "acc": 0.5297090868246659,
+      "macro_f1": 0.35309933039628233
+    },
+    "extra_eval": {
+      "acc": 0.5357622045618743,
+      "macro_f1": 0.357540943201011
+    },
+    "job_cfg": {
+      "train_csv": "../data/monthly/BTCUSDT_book_2501_1min.csv.gz",
+      "eval_csv": "../data/monthly/BTCUSDT_book_2502_1min.csv.gz",
+      "seq_len": 100,
+      "horizon_steps": 20,
+      "smooth_len": 5,
+      "epsilon_mode": "avg_spread",
+      "epsilon_scale": 5.0,
+      "d_model": 256,
+      "n_layers": 5,
+      "n_heads": 4,
+      "epochs": 20,
+      "batch_size": 128,
+      "lr": 0.0001,
+      "val_ratio": 0.2,
+      "seed": 42,
+      "device": "cuda:0",
+      "out_dir": "logs/sweep/20250922_191216/L5-H256-K4-S100-hor20-W5-epsavg_spread-5.0-seed42"
+    }
+  },
+  {
+    "name": "L5-H256-K4-S100-hor20-W5-epsavg_spread-5.0-seed43",
+    "device": "cuda:1",
+    "best_epoch": 5,
+    "best_macro_f1": 0.3567626799149933,
+    "final_val": {
+      "acc": 0.5538582500280804,
+      "macro_f1": 0.3567626799149933
+    },
+    "extra_eval": {
+      "acc": 0.5361234389513881,
+      "macro_f1": 0.3471112795349607
+    },
+    "job_cfg": {
+      "train_csv": "../data/monthly/BTCUSDT_book_2501_1min.csv.gz",
+      "eval_csv": "../data/monthly/BTCUSDT_book_2502_1min.csv.gz",
+      "seq_len": 100,
+      "horizon_steps": 20,
+      "smooth_len": 5,
+      "epsilon_mode": "avg_spread",
+      "epsilon_scale": 5.0,
+      "d_model": 256,
+      "n_layers": 5,
+      "n_heads": 4,
+      "epochs": 20,
+      "batch_size": 128,
+      "lr": 0.0001,
+      "val_ratio": 0.2,
+      "seed": 43,
+      "device": "cuda:1",
+      "out_dir": "logs/sweep/20250922_191216/L5-H256-K4-S100-hor20-W5-epsavg_spread-5.0-seed43"
+    }
+  },
+  {
+    "name": "L5-H256-K4-S100-hor20-W5-epszero-seed42",
+    "device": "cuda:2",
+    "best_epoch": 8,
+    "best_macro_f1": 0.3436971816570297,
+    "final_val": {
+      "acc": 0.5155565539705718,
+      "macro_f1": 0.3436971816570297
+    },
+    "extra_eval": {
+      "acc": 0.5168490040251832,
+      "macro_f1": 0.34454445198717654
+    },
+    "job_cfg": {
+      "train_csv": "../data/monthly/BTCUSDT_book_2501_1min.csv.gz",
+      "eval_csv": "../data/monthly/BTCUSDT_book_2502_1min.csv.gz",
+      "seq_len": 100,
+      "horizon_steps": 20,
+      "smooth_len": 5,
+      "epsilon_mode": "zero",
+      "epsilon_scale": 0.0,
+      "d_model": 256,
+      "n_layers": 5,
+      "n_heads": 4,
+      "epochs": 20,
+      "batch_size": 128,
+      "lr": 0.0001,
+      "val_ratio": 0.2,
+      "seed": 42,
+      "device": "cuda:2",
+      "out_dir": "logs/sweep/20250922_191216/L5-H256-K4-S100-hor20-W5-epszero-seed42"
+    }
+  },
+  {
+    "name": "L5-H256-K4-S100-hor20-W5-epszero-seed43",
+    "device": "cuda:3",
+    "best_epoch": 7,
+    "best_macro_f1": 0.3619505959098552,
+    "final_val": {
+      "acc": 0.5430753678535325,
+      "macro_f1": 0.3619505959098552
+    },
+    "extra_eval": {
+      "acc": 0.5329755392713387,
+      "macro_f1": 0.35521367295956274
+    },
+    "job_cfg": {
+      "train_csv": "../data/monthly/BTCUSDT_book_2501_1min.csv.gz",
+      "eval_csv": "../data/monthly/BTCUSDT_book_2502_1min.csv.gz",
+      "seq_len": 100,
+      "horizon_steps": 20,
+      "smooth_len": 5,
+      "epsilon_mode": "zero",
+      "epsilon_scale": 0.0,
+      "d_model": 256,
+      "n_layers": 5,
+      "n_heads": 4,
+      "epochs": 20,
+      "batch_size": 128,
+      "lr": 0.0001,
+      "val_ratio": 0.2,
+      "seed": 43,
+      "device": "cuda:3",
+      "out_dir": "logs/sweep/20250922_191216/L5-H256-K4-S100-hor20-W5-epszero-seed43"
+    }
+  },
+  {
+    "name": "L5-H1024-K4-S100-hor10-W5-epsavg_spread-1.0-seed42",
+    "device": "cuda:0",
+    "best_epoch": 5,
+    "best_macro_f1": 0.3650265302657334,
+    "final_val": {
+      "acc": 0.5482313307130825,
+      "macro_f1": 0.3650265302657334
+    },
+    "extra_eval": {
+      "acc": 0.5499664654594232,
+      "macro_f1": 0.3656869181346505
+    },
+    "job_cfg": {
+      "train_csv": "../data/monthly/BTCUSDT_book_2501_1min.csv.gz",
+      "eval_csv": "../data/monthly/BTCUSDT_book_2502_1min.csv.gz",
+      "seq_len": 100,
+      "horizon_steps": 10,
+      "smooth_len": 5,
+      "epsilon_mode": "avg_spread",
+      "epsilon_scale": 1.0,
+      "d_model": 1024,
+      "n_layers": 5,
+      "n_heads": 4,
+      "epochs": 20,
+      "batch_size": 128,
+      "lr": 0.0001,
+      "val_ratio": 0.2,
+      "seed": 42,
+      "device": "cuda:0",
+      "out_dir": "logs/sweep/20250922_191216/L5-H1024-K4-S100-hor10-W5-epsavg_spread-1.0-seed42"
+    }
+  },
+  {
+    "name": "L5-H1024-K4-S100-hor10-W5-epsavg_spread-1.0-seed43",
+    "device": "cuda:1",
+    "best_epoch": 3,
+    "best_macro_f1": 0.389154777362577,
+    "final_val": {
+      "acc": 0.5918023582257159,
+      "macro_f1": 0.389154777362577
+    },
+    "extra_eval": {
+      "acc": 0.575426920497343,
+      "macro_f1": 0.3795876332768799
+    },
+    "job_cfg": {
+      "train_csv": "../data/monthly/BTCUSDT_book_2501_1min.csv.gz",
+      "eval_csv": "../data/monthly/BTCUSDT_book_2502_1min.csv.gz",
+      "seq_len": 100,
+      "horizon_steps": 10,
+      "smooth_len": 5,
+      "epsilon_mode": "avg_spread",
+      "epsilon_scale": 1.0,
+      "d_model": 1024,
+      "n_layers": 5,
+      "n_heads": 4,
+      "epochs": 20,
+      "batch_size": 128,
+      "lr": 0.0001,
+      "val_ratio": 0.2,
+      "seed": 43,
+      "device": "cuda:1",
+      "out_dir": "logs/sweep/20250922_191216/L5-H1024-K4-S100-hor10-W5-epsavg_spread-1.0-seed43"
+    }
+  },
+  {
+    "name": "L5-H1024-K4-S100-hor10-W5-epsavg_spread-2.0-seed42",
+    "device": "cuda:2",
+    "error": "CUDA out of memory. Tried to allocate 2.00 GiB. GPU 2 has a total capacity of 93.00 GiB of which 1.47 GiB is free. Process 1614326 has 39.49 GiB memory in use. Process 1839213 has 37.12 GiB memory in use. Process 2370931 has 9.10 GiB memory in use. Process 2370932 has 804.00 MiB memory in use. Process 2370933 has 804.00 MiB memory in use. Process 2370930 has 4.21 GiB memory in use. Of the allocated memory 7.67 GiB is allocated by PyTorch, and 721.32 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)"
+  },
+  {
+    "name": "L5-H1024-K4-S100-hor10-W5-epsavg_spread-2.0-seed43",
+    "device": "cuda:3",
+    "best_epoch": 3,
+    "best_macro_f1": 0.38898809523809524,
+    "final_val": {
+      "acc": 0.5874227961819203,
+      "macro_f1": 0.38898809523809524
+    },
+    "extra_eval": {
+      "acc": 0.5822370118144766,
+      "macro_f1": 0.38607820231132384
+    },
+    "job_cfg": {
+      "train_csv": "../data/monthly/BTCUSDT_book_2501_1min.csv.gz",
+      "eval_csv": "../data/monthly/BTCUSDT_book_2502_1min.csv.gz",
+      "seq_len": 100,
+      "horizon_steps": 10,
+      "smooth_len": 5,
+      "epsilon_mode": "avg_spread",
+      "epsilon_scale": 2.0,
+      "d_model": 1024,
+      "n_layers": 5,
+      "n_heads": 4,
+      "epochs": 20,
+      "batch_size": 128,
+      "lr": 0.0001,
+      "val_ratio": 0.2,
+      "seed": 43,
+      "device": "cuda:3",
+      "out_dir": "logs/sweep/20250922_191216/L5-H1024-K4-S100-hor10-W5-epsavg_spread-2.0-seed43"
+    }
+  },
+  {
+    "name": "L5-H1024-K4-S100-hor10-W5-epsavg_spread-5.0-seed42",
+    "device": "cuda:0",
+    "best_epoch": 6,
+    "best_macro_f1": 0.36626994934939633,
+    "final_val": {
+      "acc": 0.5495788882650197,
+      "macro_f1": 0.36626994934939633
+    },
+    "extra_eval": {
+      "acc": 0.5504565856678533,
+      "macro_f1": 0.36688150194247937
+    },
+    "job_cfg": {
+      "train_csv": "../data/monthly/BTCUSDT_book_2501_1min.csv.gz",
+      "eval_csv": "../data/monthly/BTCUSDT_book_2502_1min.csv.gz",
+      "seq_len": 100,
+      "horizon_steps": 10,
+      "smooth_len": 5,
+      "epsilon_mode": "avg_spread",
+      "epsilon_scale": 5.0,
+      "d_model": 1024,
+      "n_layers": 5,
+      "n_heads": 4,
+      "epochs": 20,
+      "batch_size": 128,
+      "lr": 0.0001,
+      "val_ratio": 0.2,
+      "seed": 42,
+      "device": "cuda:0",
+      "out_dir": "logs/sweep/20250922_191216/L5-H1024-K4-S100-hor10-W5-epsavg_spread-5.0-seed42"
+    }
+  },
+  {
+    "name": "L5-H1024-K4-S100-hor10-W5-epsavg_spread-5.0-seed43",
+    "device": "cuda:1",
+    "best_epoch": 2,
+    "best_macro_f1": 0.3880718148882536,
+    "final_val": {
+      "acc": 0.5873104997192589,
+      "macro_f1": 0.3880718148882536
+    },
+    "extra_eval": {
+      "acc": 0.5735696228653975,
+      "macro_f1": 0.3797183706973331
+    },
+    "job_cfg": {
+      "train_csv": "../data/monthly/BTCUSDT_book_2501_1min.csv.gz",
+      "eval_csv": "../data/monthly/BTCUSDT_book_2502_1min.csv.gz",
+      "seq_len": 100,
+      "horizon_steps": 10,
+      "smooth_len": 5,
+      "epsilon_mode": "avg_spread",
+      "epsilon_scale": 5.0,
+      "d_model": 1024,
+      "n_layers": 5,
+      "n_heads": 4,
+      "epochs": 20,
+      "batch_size": 128,
+      "lr": 0.0001,
+      "val_ratio": 0.2,
+      "seed": 43,
+      "device": "cuda:1",
+      "out_dir": "logs/sweep/20250922_191216/L5-H1024-K4-S100-hor10-W5-epsavg_spread-5.0-seed43"
+    }
+  },
+  {
+    "name": "L5-H1024-K4-S100-hor10-W5-epszero-seed42",
+    "device": "cuda:2",
+    "best_epoch": 5,
+    "best_macro_f1": 0.3874093478124743,
+    "final_val": {
+      "acc": 0.5820325659741719,
+      "macro_f1": 0.3874093478124743
+    },
+    "extra_eval": {
+      "acc": 0.5698292318010628,
+      "macro_f1": 0.37980991201191866
+    },
+    "job_cfg": {
+      "train_csv": "../data/monthly/BTCUSDT_book_2501_1min.csv.gz",
+      "eval_csv": "../data/monthly/BTCUSDT_book_2502_1min.csv.gz",
+      "seq_len": 100,
+      "horizon_steps": 10,
+      "smooth_len": 5,
+      "epsilon_mode": "zero",
+      "epsilon_scale": 0.0,
+      "d_model": 1024,
+      "n_layers": 5,
+      "n_heads": 4,
+      "epochs": 20,
+      "batch_size": 128,
+      "lr": 0.0001,
+      "val_ratio": 0.2,
+      "seed": 42,
+      "device": "cuda:2",
+      "out_dir": "logs/sweep/20250922_191216/L5-H1024-K4-S100-hor10-W5-epszero-seed42"
+    }
+  },
+  {
+    "name": "L5-H1024-K4-S100-hor10-W5-epszero-seed43",
+    "device": "cuda:3",
+    "best_epoch": 3,
+    "best_macro_f1": 0.3765835093125472,
+    "final_val": {
+      "acc": 0.5700168444693993,
+      "macro_f1": 0.3765835093125472
+    },
+    "extra_eval": {
+      "acc": 0.5699582108032812,
+      "macro_f1": 0.37475402931557983
+    },
+    "job_cfg": {
+      "train_csv": "../data/monthly/BTCUSDT_book_2501_1min.csv.gz",
+      "eval_csv": "../data/monthly/BTCUSDT_book_2502_1min.csv.gz",
+      "seq_len": 100,
+      "horizon_steps": 10,
+      "smooth_len": 5,
+      "epsilon_mode": "zero",
+      "epsilon_scale": 0.0,
+      "d_model": 1024,
+      "n_layers": 5,
+      "n_heads": 4,
+      "epochs": 20,
+      "batch_size": 128,
+      "lr": 0.0001,
+      "val_ratio": 0.2,
+      "seed": 43,
+      "device": "cuda:3",
+      "out_dir": "logs/sweep/20250922_191216/L5-H1024-K4-S100-hor10-W5-epszero-seed43"
+    }
+  },
+  {
+    "name": "L5-H1024-K4-S100-hor20-W5-epsavg_spread-1.0-seed42",
+    "device": "cuda:0",
+    "best_epoch": 5,
+    "best_macro_f1": 0.3473182574779004,
+    "final_val": {
+      "acc": 0.5466696619117152,
+      "macro_f1": 0.3473182574779004
+    },
+    "extra_eval": {
+      "acc": 0.5338012178759418,
+      "macro_f1": 0.33854362982446506
+    },
+    "job_cfg": {
+      "train_csv": "../data/monthly/BTCUSDT_book_2501_1min.csv.gz",
+      "eval_csv": "../data/monthly/BTCUSDT_book_2502_1min.csv.gz",
+      "seq_len": 100,
+      "horizon_steps": 20,
+      "smooth_len": 5,
+      "epsilon_mode": "avg_spread",
+      "epsilon_scale": 1.0,
+      "d_model": 1024,
+      "n_layers": 5,
+      "n_heads": 4,
+      "epochs": 20,
+      "batch_size": 128,
+      "lr": 0.0001,
+      "val_ratio": 0.2,
+      "seed": 42,
+      "device": "cuda:0",
+      "out_dir": "logs/sweep/20250922_191216/L5-H1024-K4-S100-hor20-W5-epsavg_spread-1.0-seed42"
+    }
+  },
+  {
+    "name": "L5-H1024-K4-S100-hor20-W5-epsavg_spread-1.0-seed43",
+    "device": "cuda:1",
+    "best_epoch": 3,
+    "best_macro_f1": 0.3641151579933039,
+    "final_val": {
+      "acc": 0.5462203751544423,
+      "macro_f1": 0.3641151579933039
+    },
+    "extra_eval": {
+      "acc": 0.5487924450407679,
+      "macro_f1": 0.3653857706669353
+    },
+    "job_cfg": {
+      "train_csv": "../data/monthly/BTCUSDT_book_2501_1min.csv.gz",
+      "eval_csv": "../data/monthly/BTCUSDT_book_2502_1min.csv.gz",
+      "seq_len": 100,
+      "horizon_steps": 20,
+      "smooth_len": 5,
+      "epsilon_mode": "avg_spread",
+      "epsilon_scale": 1.0,
+      "d_model": 1024,
+      "n_layers": 5,
+      "n_heads": 4,
+      "epochs": 20,
+      "batch_size": 128,
+      "lr": 0.0001,
+      "val_ratio": 0.2,
+      "seed": 43,
+      "device": "cuda:1",
+      "out_dir": "logs/sweep/20250922_191216/L5-H1024-K4-S100-hor20-W5-epsavg_spread-1.0-seed43"
+    }
+  },
+  {
+    "name": "L5-H1024-K4-S100-hor20-W5-epsavg_spread-2.0-seed42",
+    "device": "cuda:2",
+    "best_epoch": 10,
+    "best_macro_f1": 0.35565491759031725,
+    "final_val": {
+      "acc": 0.5356621363585309,
+      "macro_f1": 0.35565491759031725
+    },
+    "extra_eval": {
+      "acc": 0.5164877696356693,
+      "macro_f1": 0.3433592427145191
+    },
+    "job_cfg": {
+      "train_csv": "../data/monthly/BTCUSDT_book_2501_1min.csv.gz",
+      "eval_csv": "../data/monthly/BTCUSDT_book_2502_1min.csv.gz",
+      "seq_len": 100,
+      "horizon_steps": 20,
+      "smooth_len": 5,
+      "epsilon_mode": "avg_spread",
+      "epsilon_scale": 2.0,
+      "d_model": 1024,
+      "n_layers": 5,
+      "n_heads": 4,
+      "epochs": 20,
+      "batch_size": 128,
+      "lr": 0.0001,
+      "val_ratio": 0.2,
+      "seed": 42,
+      "device": "cuda:2",
+      "out_dir": "logs/sweep/20250922_191216/L5-H1024-K4-S100-hor20-W5-epsavg_spread-2.0-seed42"
+    }
+  },
+  {
+    "name": "L5-H1024-K4-S100-hor20-W5-epsavg_spread-2.0-seed43",
+    "device": "cuda:3",
+    "best_epoch": 5,
+    "best_macro_f1": 0.3605137452168705,
+    "final_val": {
+      "acc": 0.5407166123778502,
+      "macro_f1": 0.3605137452168705
+    },
+    "extra_eval": {
+      "acc": 0.5391939312622561,
+      "macro_f1": 0.3593565280442175
+    },
+    "job_cfg": {
+      "train_csv": "../data/monthly/BTCUSDT_book_2501_1min.csv.gz",
+      "eval_csv": "../data/monthly/BTCUSDT_book_2502_1min.csv.gz",
+      "seq_len": 100,
+      "horizon_steps": 20,
+      "smooth_len": 5,
+      "epsilon_mode": "avg_spread",
+      "epsilon_scale": 2.0,
+      "d_model": 1024,
+      "n_layers": 5,
+      "n_heads": 4,
+      "epochs": 20,
+      "batch_size": 128,
+      "lr": 0.0001,
+      "val_ratio": 0.2,
+      "seed": 43,
+      "device": "cuda:3",
+      "out_dir": "logs/sweep/20250922_191216/L5-H1024-K4-S100-hor20-W5-epsavg_spread-2.0-seed43"
+    }
+  },
+  {
+    "name": "L5-H1024-K4-S100-hor20-W5-epsavg_spread-5.0-seed42",
+    "device": "cuda:0",
+    "best_epoch": 6,
+    "best_macro_f1": 0.3539233445225786,
+    "final_val": {
+      "acc": 0.5318431989217118,
+      "macro_f1": 0.3539233445225786
+    },
+    "extra_eval": {
+      "acc": 0.5302146764371968,
+      "macro_f1": 0.3528387969972213
+    },
+    "job_cfg": {
+      "train_csv": "../data/monthly/BTCUSDT_book_2501_1min.csv.gz",
+      "eval_csv": "../data/monthly/BTCUSDT_book_2502_1min.csv.gz",
+      "seq_len": 100,
+      "horizon_steps": 20,
+      "smooth_len": 5,
+      "epsilon_mode": "avg_spread",
+      "epsilon_scale": 5.0,
+      "d_model": 1024,
+      "n_layers": 5,
+      "n_heads": 4,
+      "epochs": 20,
+      "batch_size": 128,
+      "lr": 0.0001,
+      "val_ratio": 0.2,
+      "seed": 42,
+      "device": "cuda:0",
+      "out_dir": "logs/sweep/20250922_191216/L5-H1024-K4-S100-hor20-W5-epsavg_spread-5.0-seed42"
+    }
+  },
+  {
+    "name": "L5-H1024-K4-S100-hor20-W5-epsavg_spread-5.0-seed43",
+    "device": "cuda:1",
+    "best_epoch": 4,
+    "best_macro_f1": 0.3519943139762651,
+    "final_val": {
+      "acc": 0.5320678423003482,
+      "macro_f1": 0.3519943139762651
+    },
+    "extra_eval": {
+      "acc": 0.533594798224791,
+      "macro_f1": 0.35218208696561376
+    },
+    "job_cfg": {
+      "train_csv": "../data/monthly/BTCUSDT_book_2501_1min.csv.gz",
+      "eval_csv": "../data/monthly/BTCUSDT_book_2502_1min.csv.gz",
+      "seq_len": 100,
+      "horizon_steps": 20,
+      "smooth_len": 5,
+      "epsilon_mode": "avg_spread",
+      "epsilon_scale": 5.0,
+      "d_model": 1024,
+      "n_layers": 5,
+      "n_heads": 4,
+      "epochs": 20,
+      "batch_size": 128,
+      "lr": 0.0001,
+      "val_ratio": 0.2,
+      "seed": 43,
+      "device": "cuda:1",
+      "out_dir": "logs/sweep/20250922_191216/L5-H1024-K4-S100-hor20-W5-epsavg_spread-5.0-seed43"
+    }
+  },
+  {
+    "name": "L5-H1024-K4-S100-hor20-W5-epszero-seed42",
+    "device": "cuda:2",
+    "error": "A process in the process pool was terminated abruptly while the future was running or pending."
+  },
+  {
+    "name": "L5-H1024-K4-S100-hor20-W5-epszero-seed43",
+    "device": "cuda:3",
+    "error": "A process in the process pool was terminated abruptly while the future was running or pending."
+  },
+  {
+    "name": "L10-H256-K4-S100-hor10-W5-epsavg_spread-1.0-seed42",
+    "device": "cuda:0",
+    "best_epoch": 6,
+    "best_macro_f1": 0.35804597701149427,
+    "final_val": {
+      "acc": 0.5377877596855699,
+      "macro_f1": 0.35804597701149427
+    },
+    "extra_eval": {
+      "acc": 0.5481349636279214,
+      "macro_f1": 0.3650073132440868
+    },
+    "job_cfg": {
+      "train_csv": "../data/monthly/BTCUSDT_book_2501_1min.csv.gz",
+      "eval_csv": "../data/monthly/BTCUSDT_book_2502_1min.csv.gz",
+      "seq_len": 100,
+      "horizon_steps": 10,
+      "smooth_len": 5,
+      "epsilon_mode": "avg_spread",
+      "epsilon_scale": 1.0,
+      "d_model": 256,
+      "n_layers": 10,
+      "n_heads": 4,
+      "epochs": 20,
+      "batch_size": 128,
+      "lr": 0.0001,
+      "val_ratio": 0.2,
+      "seed": 42,
+      "device": "cuda:0",
+      "out_dir": "logs/sweep/20250922_191216/L10-H256-K4-S100-hor10-W5-epsavg_spread-1.0-seed42"
+    }
+  },
+  {
+    "name": "L10-H256-K4-S100-hor10-W5-epsavg_spread-1.0-seed43",
+    "device": "cuda:1",
+    "best_epoch": 6,
+    "best_macro_f1": 0.36418484362432224,
+    "final_val": {
+      "acc": 0.5474452554744526,
+      "macro_f1": 0.36418484362432224
+    },
+    "extra_eval": {
+      "acc": 0.5630449362843729,
+      "macro_f1": 0.37413987507746826
+    },
+    "job_cfg": {
+      "train_csv": "../data/monthly/BTCUSDT_book_2501_1min.csv.gz",
+      "eval_csv": "../data/monthly/BTCUSDT_book_2502_1min.csv.gz",
+      "seq_len": 100,
+      "horizon_steps": 10,
+      "smooth_len": 5,
+      "epsilon_mode": "avg_spread",
+      "epsilon_scale": 1.0,
+      "d_model": 256,
+      "n_layers": 10,
+      "n_heads": 4,
+      "epochs": 20,
+      "batch_size": 128,
+      "lr": 0.0001,
+      "val_ratio": 0.2,
+      "seed": 43,
+      "device": "cuda:1",
+      "out_dir": "logs/sweep/20250922_191216/L10-H256-K4-S100-hor10-W5-epsavg_spread-1.0-seed43"
+    }
+  },
+  {
+    "name": "L10-H256-K4-S100-hor10-W5-epsavg_spread-2.0-seed42",
+    "device": "cuda:2",
+    "error": "A process in the process pool was terminated abruptly while the future was running or pending."
+  },
+  {
+    "name": "L10-H256-K4-S100-hor10-W5-epsavg_spread-2.0-seed43",
+    "device": "cuda:3",
+    "best_epoch": 5,
+    "best_macro_f1": 0.3506970388734117,
+    "final_val": {
+      "acc": 0.5353172375070185,
+      "macro_f1": 0.3506970388734117
+    },
+    "extra_eval": {
+      "acc": 0.5480575762265903,
+      "macro_f1": 0.3568259555547366
+    },
+    "job_cfg": {
+      "train_csv": "../data/monthly/BTCUSDT_book_2501_1min.csv.gz",
+      "eval_csv": "../data/monthly/BTCUSDT_book_2502_1min.csv.gz",
+      "seq_len": 100,
+      "horizon_steps": 10,
+      "smooth_len": 5,
+      "epsilon_mode": "avg_spread",
+      "epsilon_scale": 2.0,
+      "d_model": 256,
+      "n_layers": 10,
+      "n_heads": 4,
+      "epochs": 20,
+      "batch_size": 128,
+      "lr": 0.0001,
+      "val_ratio": 0.2,
+      "seed": 43,
+      "device": "cuda:3",
+      "out_dir": "logs/sweep/20250922_191216/L10-H256-K4-S100-hor10-W5-epsavg_spread-2.0-seed43"
+    }
+  },
+  {
+    "name": "L10-H256-K4-S100-hor10-W5-epsavg_spread-5.0-seed42",
+    "device": "cuda:0",
+    "error": "A process in the process pool was terminated abruptly while the future was running or pending."
+  },
+  {
+    "name": "L10-H256-K4-S100-hor10-W5-epsavg_spread-5.0-seed43",
+    "device": "cuda:1",
+    "error": "A process in the process pool was terminated abruptly while the future was running or pending."
+  },
+  {
+    "name": "L10-H256-K4-S100-hor10-W5-epszero-seed42",
+    "device": "cuda:2",
+    "error": "A process in the process pool was terminated abruptly while the future was running or pending."
+  },
+  {
+    "name": "L10-H256-K4-S100-hor10-W5-epszero-seed43",
+    "device": "cuda:3",
+    "error": "A process in the process pool was terminated abruptly while the future was running or pending."
+  },
+  {
+    "name": "L10-H256-K4-S100-hor20-W5-epsavg_spread-1.0-seed42",
+    "device": "cuda:0",
+    "error": "A process in the process pool was terminated abruptly while the future was running or pending."
+  },
+  {
+    "name": "L10-H256-K4-S100-hor20-W5-epsavg_spread-1.0-seed43",
+    "device": "cuda:1",
+    "error": "A process in the process pool was terminated abruptly while the future was running or pending."
+  },
+  {
+    "name": "L10-H256-K4-S100-hor20-W5-epsavg_spread-2.0-seed42",
+    "device": "cuda:2",
+    "error": "A process in the process pool was terminated abruptly while the future was running or pending."
+  },
+  {
+    "name": "L10-H256-K4-S100-hor20-W5-epsavg_spread-2.0-seed43",
+    "device": "cuda:3",
+    "error": "A process in the process pool was terminated abruptly while the future was running or pending."
+  },
+  {
+    "name": "L10-H256-K4-S100-hor20-W5-epsavg_spread-5.0-seed42",
+    "device": "cuda:0",
+    "error": "A process in the process pool was terminated abruptly while the future was running or pending."
+  },
+  {
+    "name": "L10-H256-K4-S100-hor20-W5-epsavg_spread-5.0-seed43",
+    "device": "cuda:1",
+    "error": "A process in the process pool was terminated abruptly while the future was running or pending."
+  },
+  {
+    "name": "L10-H256-K4-S100-hor20-W5-epszero-seed42",
+    "device": "cuda:2",
+    "error": "A process in the process pool was terminated abruptly while the future was running or pending."
+  },
+  {
+    "name": "L10-H256-K4-S100-hor20-W5-epszero-seed43",
+    "device": "cuda:3",
+    "error": "A process in the process pool was terminated abruptly while the future was running or pending."
+  },
+  {
+    "name": "L10-H1024-K4-S100-hor10-W5-epsavg_spread-1.0-seed42",
+    "device": "cuda:0",
+    "error": "A process in the process pool was terminated abruptly while the future was running or pending."
+  },
+  {
+    "name": "L10-H1024-K4-S100-hor10-W5-epsavg_spread-1.0-seed43",
+    "device": "cuda:1",
+    "error": "A process in the process pool was terminated abruptly while the future was running or pending."
+  },
+  {
+    "name": "L10-H1024-K4-S100-hor10-W5-epsavg_spread-2.0-seed42",
+    "device": "cuda:2",
+    "error": "A process in the process pool was terminated abruptly while the future was running or pending."
+  },
+  {
+    "name": "L10-H1024-K4-S100-hor10-W5-epsavg_spread-2.0-seed43",
+    "device": "cuda:3",
+    "error": "A process in the process pool was terminated abruptly while the future was running or pending."
+  },
+  {
+    "name": "L10-H1024-K4-S100-hor10-W5-epsavg_spread-5.0-seed42",
+    "device": "cuda:0",
+    "error": "A process in the process pool was terminated abruptly while the future was running or pending."
+  },
+  {
+    "name": "L10-H1024-K4-S100-hor10-W5-epsavg_spread-5.0-seed43",
+    "device": "cuda:1",
+    "error": "A process in the process pool was terminated abruptly while the future was running or pending."
+  },
+  {
+    "name": "L10-H1024-K4-S100-hor10-W5-epszero-seed42",
+    "device": "cuda:2",
+    "error": "A process in the process pool was terminated abruptly while the future was running or pending."
+  },
+  {
+    "name": "L10-H1024-K4-S100-hor10-W5-epszero-seed43",
+    "device": "cuda:3",
+    "error": "A process in the process pool was terminated abruptly while the future was running or pending."
+  },
+  {
+    "name": "L10-H1024-K4-S100-hor20-W5-epsavg_spread-1.0-seed42",
+    "device": "cuda:0",
+    "error": "A process in the process pool was terminated abruptly while the future was running or pending."
+  },
+  {
+    "name": "L10-H1024-K4-S100-hor20-W5-epsavg_spread-1.0-seed43",
+    "device": "cuda:1",
+    "error": "A process in the process pool was terminated abruptly while the future was running or pending."
+  },
+  {
+    "name": "L10-H1024-K4-S100-hor20-W5-epsavg_spread-2.0-seed42",
+    "device": "cuda:2",
+    "error": "A process in the process pool was terminated abruptly while the future was running or pending."
+  },
+  {
+    "name": "L10-H1024-K4-S100-hor20-W5-epsavg_spread-2.0-seed43",
+    "device": "cuda:3",
+    "error": "A process in the process pool was terminated abruptly while the future was running or pending."
+  },
+  {
+    "name": "L10-H1024-K4-S100-hor20-W5-epsavg_spread-5.0-seed42",
+    "device": "cuda:0",
+    "error": "A process in the process pool was terminated abruptly while the future was running or pending."
+  },
+  {
+    "name": "L10-H1024-K4-S100-hor20-W5-epsavg_spread-5.0-seed43",
+    "device": "cuda:1",
+    "error": "A process in the process pool was terminated abruptly while the future was running or pending."
+  },
+  {
+    "name": "L10-H1024-K4-S100-hor20-W5-epszero-seed42",
+    "device": "cuda:2",
+    "error": "A process in the process pool was terminated abruptly while the future was running or pending."
+  },
+  {
+    "name": "L10-H1024-K4-S100-hor20-W5-epszero-seed43",
+    "device": "cuda:3",
+    "error": "A process in the process pool was terminated abruptly while the future was running or pending."
+  }
+]

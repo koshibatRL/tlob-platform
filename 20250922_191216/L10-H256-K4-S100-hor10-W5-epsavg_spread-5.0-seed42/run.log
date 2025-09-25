@@ -1,0 +1,6 @@
+2025-09-22 13:04:54,364 | INFO | Job config: {"train_csv": "../data/monthly/BTCUSDT_book_2501_1min.csv.gz", "eval_csv": "../data/monthly/BTCUSDT_book_2502_1min.csv.gz", "seq_len": 100, "horizon_steps": 10, "smooth_len": 5, "epsilon_mode": "avg_spread", "epsilon_scale": 5.0, "d_model": 256, "n_layers": 10, "n_heads": 4, "epochs": 20, "batch_size": 128, "lr": 0.0001, "val_ratio": 0.2, "seed": 42, "device": "cuda:0", "out_dir": "logs/sweep/20250922_191216/L10-H256-K4-S100-hor10-W5-epsavg_spread-5.0-seed42"}
+2025-09-22 13:05:17,593 | INFO | [01] train_loss=0.9736  val_acc=0.5448  val_f1=0.3336
+2025-09-22 13:05:40,169 | INFO | [02] train_loss=0.8129  val_acc=0.5077  val_f1=0.2980
+2025-09-22 13:06:02,809 | INFO | [03] train_loss=0.7348  val_acc=0.4902  val_f1=0.2640
+2025-09-22 13:06:25,378 | INFO | [04] train_loss=0.7093  val_acc=0.5165  val_f1=0.3138
+2025-09-22 13:06:47,943 | INFO | [05] train_loss=0.6893  val_acc=0.5458  val_f1=0.3630

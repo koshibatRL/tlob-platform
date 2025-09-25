@@ -1,0 +1,21 @@
+2025-09-22 11:10:25,809 | INFO | Job config: {"train_csv": "../data/monthly/BTCUSDT_book_2501_1min.csv.gz", "eval_csv": "../data/monthly/BTCUSDT_book_2502_1min.csv.gz", "seq_len": 100, "horizon_steps": 10, "smooth_len": 5, "epsilon_mode": "zero", "epsilon_scale": 0.0, "d_model": 1024, "n_layers": 5, "n_heads": 4, "epochs": 20, "batch_size": 128, "lr": 0.0001, "val_ratio": 0.2, "seed": 42, "device": "cuda:2", "out_dir": "logs/sweep/20250922_191216/L5-H1024-K4-S100-hor10-W5-epszero-seed42"}
+2025-09-22 11:13:18,753 | INFO | [01] train_loss=2.1033  val_acc=0.5268  val_f1=0.2300
+2025-09-22 11:16:11,073 | INFO | [02] train_loss=1.2376  val_acc=0.5448  val_f1=0.3525
+2025-09-22 11:17:40,730 | INFO | [03] train_loss=0.6972  val_acc=0.5397  val_f1=0.3420
+2025-09-22 11:19:02,011 | INFO | [04] train_loss=0.6788  val_acc=0.5335  val_f1=0.3292
+2025-09-22 11:20:23,312 | INFO | [05] train_loss=0.6701  val_acc=0.5820  val_f1=0.3874
+2025-09-22 11:21:44,733 | INFO | [06] train_loss=0.6549  val_acc=0.5595  val_f1=0.3727
+2025-09-22 11:23:06,034 | INFO | [07] train_loss=0.6300  val_acc=0.5392  val_f1=0.3546
+2025-09-22 11:24:27,655 | INFO | [08] train_loss=0.5703  val_acc=0.5203  val_f1=0.3459
+2025-09-22 11:25:49,216 | INFO | [09] train_loss=0.4163  val_acc=0.5084  val_f1=0.3385
+2025-09-22 11:27:10,798 | INFO | [10] train_loss=0.2272  val_acc=0.5127  val_f1=0.3390
+2025-09-22 11:28:32,418 | INFO | [11] train_loss=0.1060  val_acc=0.5143  val_f1=0.3412
+2025-09-22 11:29:54,099 | INFO | [12] train_loss=0.0510  val_acc=0.5178  val_f1=0.3450
+2025-09-22 11:31:15,761 | INFO | [13] train_loss=0.0260  val_acc=0.5184  val_f1=0.3454
+2025-09-22 11:32:37,522 | INFO | [14] train_loss=0.0115  val_acc=0.5204  val_f1=0.3468
+2025-09-22 11:33:59,082 | INFO | [15] train_loss=0.0040  val_acc=0.5160  val_f1=0.3439
+2025-09-22 11:35:20,604 | INFO | [16] train_loss=0.0006  val_acc=0.5141  val_f1=0.3427
+2025-09-22 11:36:42,145 | INFO | [17] train_loss=0.0002  val_acc=0.5160  val_f1=0.3440
+2025-09-22 11:38:03,906 | INFO | [18] train_loss=0.0001  val_acc=0.5167  val_f1=0.3444
+2025-09-22 11:39:25,647 | INFO | [19] train_loss=0.0001  val_acc=0.5171  val_f1=0.3447
+2025-09-22 11:40:47,588 | INFO | [20] train_loss=0.0001  val_acc=0.5169  val_f1=0.3446
